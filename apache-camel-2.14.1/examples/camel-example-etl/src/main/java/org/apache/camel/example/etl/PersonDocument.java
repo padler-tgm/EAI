@@ -23,53 +23,94 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
+ * Diese Klasse speichert sich die Daten der Personen die im src/data/ definiert sind
  * @version 
  */
 @XmlRootElement(name = "person")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class PersonDocument {
+    //speichert sich den Username der Person, es handelt sich um XMLAttribut des root(user)
     @XmlAttribute
     private String user;
+    //steht innerhalb des root, es handelt sich um ein Element, welches sich den Vornamen speichert
     @XmlElement
     private String firstName;
+    //steht innerhalb des root, es handelt sich um ein Element, welches sich den Nachnamen speichert
     @XmlElement
     private String lastName;
+    //steht innerhalb des root, es handelt sich um ein Element, welches sich die City speichert
     @XmlElement
     private String city;
 
+    /**
+     * Die toString gibt aus um welchen User es sich handelt
+     * @return gibt den User zurueck
+     */
     @Override
     public String toString() {
         return "Person[user: " + user + "]";
     }
 
+    /**
+     * Diese Methode gibt aus von welcher City der User kommt
+     * @return gibt die City zurueck
+     */
     public String getCity() {
         return city;
     }
 
+    /**
+     * Diese Methode setzt die City des Users
+     * @param city die neue City des Users
+     */
     public void setCity(String city) {
         this.city = city;
     }
-
+    
+    /**
+     * Diese Methode gibt aus wie der User mit Vornamen heisst
+     * @return gibt den Vornamen zurueck
+     */
     public String getFirstName() {
         return firstName;
     }
 
+    /**
+     * Diese Methode setzt den Vornamen des Users
+     * @param firstName der Vorname des Users
+     */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
+    /**
+     * Diese Methode gibt aus wie der User mit Nachnamen heisst
+     * @return gibt den Nachnamen zurueck
+     */
     public String getLastName() {
         return lastName;
     }
 
+    /**
+     * Diese Methode setzt den Nachnamen des Users
+     * @param lastName der Nachname des Users
+     */
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
+    
+    /**
+     * Diese Methode gibt den User zurueck
+     * @return gibt den User zurueck
+     */
     public String getUser() {
         return user;
     }
-
+    
+    /**
+     * Diese Methode setzt den User
+     * @param user der User
+     */
     public void setUser(String user) {
         this.user = user;
     }

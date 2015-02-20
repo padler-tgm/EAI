@@ -33,28 +33,33 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 /**
  * A Message Transformer of an XML document to a Customer entity bean
- * 
  * @version 
  */
 // START SNIPPET: example
 @Converter
 public final class CustomerTransformer {
-
+    //Logger wird inizialisier
     private static final Logger LOG = LoggerFactory.getLogger(CustomerTransformer.class);
 
+    /**
+     * Default-Konstruktor
+     */
     private CustomerTransformer() {
     }
 
     /**
-     * A transformation method to convert a person document into a customer
-     * entity
+     * A transformation method to convert a person document into a customerEntity
+     * @param doc vom Typ person hier sind alle Personendaten definiert
+     * @param exchange point at which threads can pair and swap elements
+     * @return einen customer
+     * @throws wenn keine Verbindung aufgebaut werden kann
      */
     @Converter
     public static CustomerEntity toCustomer(PersonDocument doc, Exchange exchange) throws Exception {
         EntityManager entityManager = exchange.getProperty(JpaConstants.ENTITY_MANAGER, EntityManager.class);
         TransactionTemplate transactionTemplate = exchange.getContext().getRegistry().lookupByNameAndType("transactionTemplate", TransactionTemplate.class);
 
-        String user = doc.getUser();
+        String user = doc.getUser();//holt sich den User als Text
         CustomerEntity customer = findCustomerByName(transactionTemplate, entityManager, user);
 
         // let's convert information from the document into the entity bean
@@ -69,6 +74,11 @@ public final class CustomerTransformer {
 
     /**
      * Finds a customer for the given username
+     * @param transactionTemplate keinen Plan
+     * @param entityManager beinhaltet alle User die es gibt
+     * @param userName der Username darf nicht veraendert werden
+     * @return einen customer
+     * @throws falls der User nicht vorhanden ist
      */
     private static CustomerEntity findCustomerByName(TransactionTemplate transactionTemplate, final EntityManager entityManager, final String userName) throws Exception {
         return transactionTemplate.execute(new TransactionCallback<CustomerEntity>() {
