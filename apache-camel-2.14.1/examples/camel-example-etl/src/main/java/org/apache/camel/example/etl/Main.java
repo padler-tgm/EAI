@@ -22,7 +22,12 @@ package org.apache.camel.example.etl;
  * @version 
  */
 public class Main extends org.apache.camel.spring.Main {
+    /**
+     * main-methode die bei Programmstart ausgefuehrt wird
+     * @param Programmargumente
+     */
     public static void main(String... args) throws Exception {
+        //neues Main-Objekt wird erzeugt und run-methode wird ausgefuehrt
         new Main().run(args);
     }
 }
