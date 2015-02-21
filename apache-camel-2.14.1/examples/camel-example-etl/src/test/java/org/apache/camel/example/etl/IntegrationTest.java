@@ -20,10 +20,13 @@ import junit.framework.TestCase;
 import org.apache.camel.spring.Main;
 
 /**
+ * JUnit Testklasse fuer die Integration
  * @version 
  */
 public class IntegrationTest extends TestCase {
-
+    /**
+     * TestMethode um die EtlRoutes zu testen
+     */
     public void testEtlRoutes() throws Exception {
         // let's boot up the Spring application context for 5 seconds to check that it works OK
         Main.main("-duration", "5s", "-o", "target/site/cameldoc");
