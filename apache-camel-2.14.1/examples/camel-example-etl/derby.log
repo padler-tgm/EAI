@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Fri Feb 20 12:11:40 CET 2015:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-014b-a6af-97f2-000001d5dd30 
-on database directory /home/schueler/bin/EAI/apache-camel-2.14.1/examples/camel-example-etl/target/derby with class loader java.net.URLClassLoader@f19723e 
+Sun Feb 22 11:54:07 CET 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-014b-b0ec-4004-000001cf18f8 
+on database directory /home/schueler/bin/EAI/apache-camel-2.14.1/examples/camel-example-etl/target/derby with class loader java.net.URLClassLoader@9ecc0a5 
 Loaded from file:/home/schueler/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_65-b32
@@ -12,5 +12,5 @@ os.version=3.2.0-4-amd64
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Fri Feb 20 12:14:40 CET 2015:
-Shutting down instance a816c00e-014b-a6af-97f2-000001d5dd30 on database directory /home/schueler/bin/EAI/apache-camel-2.14.1/examples/camel-example-etl/target/derby with class loader java.net.URLClassLoader@f19723e 
+Sun Feb 22 11:54:24 CET 2015:
+Shutting down instance a816c00e-014b-b0ec-4004-000001cf18f8 on database directory /home/schueler/bin/EAI/apache-camel-2.14.1/examples/camel-example-etl/target/derby with class loader java.net.URLClassLoader@9ecc0a5 
