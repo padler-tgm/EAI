@@ -1,0 +1,99 @@
+commit 1ad9963318e245c69cff5900f339f27d05842b3d
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sun Feb 22 20:18:31 2015 +0100
+
+    fertig
+
+commit a69aad113180d1147d770234e737f984a84ef8e1
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sun Feb 22 20:15:34 2015 +0100
+
+    final commit
+
+commit b8ddaa1eabb2120a569ac92ec66727dcdf6ba021
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sun Feb 22 17:06:06 2015 +0100
+
+    Protokolll weitergemacht
+
+commit f770e087b291632d3f65299320273fafa0bf10bd
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sun Feb 22 12:16:50 2015 +0100
+
+    Test weg Protokoll added
+
+commit 3b8b726b9e725dab82dd70d35dcaa0df08a6401b
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sat Feb 21 16:06:12 2015 +0100
+
+    BluePrintTest
+
+commit f76a2c32a8b0c7d4ea9660843941e7d58221687c
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sat Feb 21 16:03:24 2015 +0100
+
+    CamelSpringTest
+
+commit 9dccca42103e824ed46417b8a2cc1ae5310f0069
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sat Feb 21 15:53:05 2015 +0100
+
+    FilterTestv2
+
+commit d0540013601c484ca04dea694ffe1ec1844ba866
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sat Feb 21 15:49:34 2015 +0100
+
+    FilterTest
+
+commit 250d8c42eb80aa32a20445b4f6c95f3cdd65a597
+Merge: 7e5cf0d 44c7f7e
+Author: Philipp Adler <padler@student.tgm.ac.at>
+Date:   Sat Feb 21 15:42:55 2015 +0100
+
+    Merge branch 'master' of https://github.com/padler-tgm/EAI
+
+commit 7e5cf0d1e3509e57770b643fd05cefaf0c1c3451
+Author: Philipp Adler <padler@student.tgm.ac.at>
+Date:   Sat Feb 21 15:42:43 2015 +0100
+
+    JavaDoc
+
+commit 44c7f7e5168441c28d36366ecc5ed7247cc5606e
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sat Feb 21 15:41:41 2015 +0100
+
+    test doc
+
+commit 5375bffe54b3eeb00e30d39682b36aff48dad93c
+Merge: 080fa8e c90cb85
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sat Feb 21 15:32:43 2015 +0100
+
+    Merge branch 'master' of github.com:padler-tgm/EAI
+
+commit 080fa8e7869aeccc1814caf3989210ef845fd27f
+Author: Adin Karic <akaric@student.tgm.ac.at>
+Date:   Sat Feb 21 15:32:23 2015 +0100
+
+    SourceCode dokumentiert
+
+commit 3e938a7cf1c2a7408e125813877a061beb831272
+Author: akaric-tgm <adin_karic@gmx.at>
+Date:   Sat Feb 21 13:55:04 2015 +0100
+
+    Create README.md
+    
+    readme
+
+commit c90cb8522dfb7996f639a58ee25b37847de66bbc
+Author: Philipp Adler <padler@student.tgm.ac.at>
+Date:   Fri Feb 20 16:42:26 2015 +0100
+
+    Source dokumentiert
+
+commit 817c23ecf646d661c547c0de4f543345e638bfb2
+Author: Philipp Adler <padler@student.tgm.ac.at>
+Date:   Fri Feb 20 15:04:08 2015 +0100
+
+    init
